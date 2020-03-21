@@ -1,0 +1,11 @@
+T__0=1
+T__1=2
+LPAREN=3
+RPAREN=4
+NUMBER=5
+VARIABLE=6
+SPACES=7
+'+'=1
+'*'=2
+'('=3
+')'=4
