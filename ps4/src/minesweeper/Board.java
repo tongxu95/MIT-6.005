@@ -241,6 +241,7 @@ public class Board {
      * Return the string representation of the board, which consists of a series of newline-
      * separated rows of space-separated characters, which represents the states of the square.
      */
+	@Override
 	public String toString() {
 		String boardMessage = "";
 		for (List<Square> row : board) {
@@ -381,6 +382,7 @@ class Square {
     /**
      * Return the string representation of a square's state  
      */
+	@Override
 	public String toString() {
 		return state;
 	}
