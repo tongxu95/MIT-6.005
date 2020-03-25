@@ -16,6 +16,11 @@ class Multiply implements Expression {
     //   All fields are private and final
     //	 Expressions are immutable
 	
+    /**
+     * Create a multiplication expression
+     * @param left Expression to the left of "*" operator
+     * @param right Expression to the right of the "*" operator
+     */
 	public Multiply (Expression left, Expression right) {
 		this.left = left;
 		this.right = right;

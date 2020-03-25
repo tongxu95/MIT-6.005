@@ -16,6 +16,11 @@ class Add implements Expression {
     //   All fields are private and final
     //	 Expressions are immutable
 	
+    /**
+     * Create an addition expression
+     * @param left Expression to the left of "+" operator
+     * @param right Expression to the right of the "+" operator
+     */
 	public Add(Expression left, Expression right) {
 		this.left = left;
 		this.right = right;

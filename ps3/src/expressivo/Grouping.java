@@ -15,6 +15,11 @@ public class Grouping implements Expression{
     //   All fields are private and final
     //	 Expressions are immutable
 	
+    /**
+     * Create an expression enclosed in parentheses for precedence
+     * @param expr Expression enclosed in parentheses
+     * @param numParen number of parentheses enclosing the expression
+     */
 	public Grouping(Expression expr, int numParen) {
 		this.numParen = numParen;
 		this.expr = expr;
